@@ -73,6 +73,7 @@ matrix:
       env:
         - ARROW_ENABLED="true"
         - ARROW_VERSION="devel"
+        - ARROW_BRANCH="476274d986830efc8ea7922c2405458b0b947f0d"
         - ARROW_SOURCE="build"
         - JAVA_VERSION=oraclejdk8
     - name: "Deps Devel (tidyverse, r-lib, forge)"
